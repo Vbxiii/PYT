@@ -15,6 +15,24 @@
 #     print(i)
 
 # a=[expression for item in range]
-a =[(x)** for x in range(10)]
+# a =[(x)** for x in range(10)]
 
 # a=>[0**,1**,2**,3**,4**,5**,6**,7**,8**,9**]
+
+# CLasswork
+# in the a list below, add 9 +8 
+a = [1,2,4,7,[5,9,[8,7],4],3,7]
+b = a[4][1] + a[4][2][0]
+print (b)
+
+import random 
+a =  [i for i in range (10)]
+
+random.shufflle(a)
+print(a)
+
+# print(sorted(a, reverse = true))
+
+a.reverse()
+print(a)
+
